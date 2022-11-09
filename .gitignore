@@ -2,6 +2,7 @@ metadata
 debug
 vendor/
 *~
+*.pdf
 *.pcap
 *.shark
 .vscode
