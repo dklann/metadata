@@ -1,0 +1,13 @@
+[Unit]
+Description = Metadata receiver for Grafana
+Requires = network-online.service
+After = network-online.service
+
+[Service]
+Type = simple
+ExecStart = %h/.local/bin/metadata -v
+Restart = always
+KillMode = control-group
+
+[Install]
+WantedBy = default.target

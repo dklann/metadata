@@ -1,0 +1,8 @@
+metadata
+debug
+vendor/
+*~
+*.pcap
+*.shark
+.vscode
+*.db
